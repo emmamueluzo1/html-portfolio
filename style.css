@@ -1,0 +1,51 @@
+h1{
+    color: whitesmoke;
+    background-color: rgb(142, 162, 142);
+}
+h2{
+    color: whitesmoke;
+    background-color:rgb(138, 138, 102)
+}
+h3{
+    color: rgb(249, 245, 245);
+    font-style: italic;
+}
+
+
+
+/* will set background color for index.html page*/
+.home-page{
+    background-color: antiquewhite;
+}
+/* will set background color for about me page*/
+.about-page{
+     background-color: antiquewhite;
+}
+/* will set background color for contact me page*/
+.contact-me {
+     background-color: antiquewhite;
+}
+
+
+/* This is the id of the first "h3" subheading in birthday invite html file */
+#h3-bday-page-heading{
+    color: rgb(138, 138, 102)
+}
+/* sets back ground color for birth day location link */
+#bday-location{
+    background-color:rgb(142, 162, 142);
+}
+
+/* This is the id of the first "h3" subheading in  movie-ranking html file */
+#fav-movie{
+    color: rgb(138, 138, 102)
+}
+
+.posters-in-a-row 
+{
+    display: flex;*/
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    width: 25%;
+    gap: 20px;
+}
